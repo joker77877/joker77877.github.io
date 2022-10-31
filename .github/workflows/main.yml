@@ -19,5 +19,4 @@ jobs:
         node-version: ${{ matrix.node_version }}
 
     - name: pnpm install, build
-      run: |
-        build.sh
+      run: build.sh
