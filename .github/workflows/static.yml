@@ -8,12 +8,15 @@ on:
 jobs:
     build:
         name: build ${{ matrix.node_version }} and ${{ matrix.os }}
+        permissions:
+            contents: write
         runs-on: ${{ matrix.os }}
         strategy:
             matrix:
                 node_version: ['16']
                 os: [ubuntu-latest]
-
+        concurrency:
+            group: ${{ github.workflow }}-${{ github.ref }}
         steps:
             - uses: actions/checkout@v1
             - name: Use Node.js ${{ matrix.node_version }}
@@ -26,7 +29,6 @@ jobs:
                   npm install pnpm -g
                   pnpm install
                   pnpm run build
-                  echo 'build success'
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
