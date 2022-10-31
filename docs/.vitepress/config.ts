@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 console.log(process.env.NODE_ENV);
 export default defineConfig({
+    outDir: '../public',
     title: 'joker的前端梦工厂',
     description: 'Just playing around.',
     themeConfig: {
