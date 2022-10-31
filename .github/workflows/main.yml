@@ -4,7 +4,7 @@ on:
     - main
 jobs:
   build:
-    name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: build ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -20,6 +20,4 @@ jobs:
 
     - name: pnpm install, build
       run: |
-        npm install pnpm -g
-        pnpm install
-        pnpm run build
+        build.sh
