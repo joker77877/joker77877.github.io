@@ -24,4 +24,5 @@ jobs:
         pnpm install
         pnpm run build
         rm -rf dist/
-        cp -r docs/.vitepress/dist dist/
+        mkdir dist
+        cp -r docs/.vitepress/dist/ dist/
