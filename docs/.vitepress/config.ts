@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-const base = process.env.NODE_ENV === 'development' ? '' : '/blog';
+const base = process.env.NODE_ENV === 'development' ? '' : '/yby-docs';
 export default defineConfig({
     title: 'joker的前端梦工厂',
     description: 'Just playing around.',
