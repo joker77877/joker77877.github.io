@@ -12,7 +12,7 @@ export default defineConfig({
             text: 'Edit this page on GitHub',
         },
         outlineTitle: 'In hac pagina',
-        siteTitle: '尹彬宇的前端梦工厂',
+        siteTitle: '尹彬宇的前端梦工厂123',
         sidebar: [
             {
                 text: '文档中心',
