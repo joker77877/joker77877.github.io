@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress';
-
+const base = process.env.NODE_ENV === 'development' ? '' : '/blog';
 export default defineConfig({
     title: 'joker的前端梦工厂',
     description: 'Just playing around.',
-    // base: '',
+    base,
     themeConfig: {
         // Type is `DefaultTheme.Config`
         editLink: {
