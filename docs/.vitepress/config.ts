@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 console.log(process.env.NODE_ENV);
 const base = process.env.NODE_ENV === 'development' ? '' : '/yby-docs/';
 export default defineConfig({
-    title: 'joker的前端梦工厂',
+    title: 'joker的前端梦工厂1233',
     description: 'Just playing around.',
     base,
     themeConfig: {
