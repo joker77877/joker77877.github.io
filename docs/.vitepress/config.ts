@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 console.log(process.env.NODE_ENV);
 export default defineConfig({
     outDir: '../public',
-    title: 'joker的前端梦工厂',
+    title: 'joker的前端梦工厂123',
     description: 'Just playing around.',
     themeConfig: {
         // Type is `DefaultTheme.Config`
@@ -11,7 +11,7 @@ export default defineConfig({
             text: 'Edit this page on GitHub',
         },
         outlineTitle: 'In hac pagina',
-        siteTitle: '尹彬宇的前端梦工厂',
+        siteTitle: '尹彬宇的前端梦工厂123',
         sidebar: [
             {
                 text: '文档中心',
