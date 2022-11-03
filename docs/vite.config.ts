@@ -12,11 +12,11 @@ export default defineConfig({
     },
     build: {
         rollupOptions: {
-            output: {
-                manualChunks: {
-                    windicss: ['windicss'],
-                },
-            },
+            // output: {
+            //     manualChunks: {
+            //         windicss: ['windicss'],
+            //     },
+            // },
         },
     },
     plugins: [
