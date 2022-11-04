@@ -37,6 +37,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
                 },
                 { text: '入门', link: '/tailwindcss/getting-started' },
                 { text: 'windicss', link: '/tailwindcss/windicss' },
+                { text: 'UnoCSS', link: '/tailwindcss/unocss' },
             ],
         },
     ],
