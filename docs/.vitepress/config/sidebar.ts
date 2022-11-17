@@ -8,6 +8,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [{ text: '什么是React?', link: '/react/introduce' }],
         },
     ],
+    '/other/': [
+        {
+            text: '技术文档',
+            collapsible: true,
+            items: [{ text: '低代码平台重构技术文档', link: '/other/amis' },
+            { text: '生死狙击1手游官网重构技术文档', link: '/other/ssjj' }],
+        },
+    ],
     '/vue/': [
         {
             text: '文档中心',

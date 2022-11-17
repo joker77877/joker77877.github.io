@@ -5,7 +5,8 @@ export const nav: DefaultTheme.Config['nav'] = [
         text: '框架',
         items: [
             { text: 'React', link: '/react/introduce' },
-            { text: 'Vue', link: '/item-3' },
+            { text: 'Vue', link: '/vue' },
+            { text: '其他', link: '/other/amis' },
         ],
     },
     {
